@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="fragens/list">
+        <put-attribute name="body" value="/WEB-INF/views/fragens/list.jspx"/>
+    </definition>
+<definition extends="default" name="fragens/show">
+        <put-attribute name="body" value="/WEB-INF/views/fragens/show.jspx"/>
+    </definition>
+<definition extends="default" name="fragens/create">
+        <put-attribute name="body" value="/WEB-INF/views/fragens/create.jspx"/>
+    </definition>
+<definition extends="default" name="fragens/update">
+        <put-attribute name="body" value="/WEB-INF/views/fragens/update.jspx"/>
+    </definition>
+<definition extends="default" name="fragens/findFragensByKat">
+        <put-attribute name="body" value="/WEB-INF/views/fragens/findFragensByKat.jspx"/>
+    </definition>
+<definition extends="default" name="fragens/findFragensByKattype">
+        <put-attribute name="body" value="/WEB-INF/views/fragens/findFragensByKattype.jspx"/>
+    </definition>
+</tiles-definitions>

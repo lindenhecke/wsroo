@@ -1,0 +1,44 @@
+// Spring Roo 1.3.0.RELEASE [rev 4877cfb] log opened at 2015-02-22 11:06:53
+project --topLevelPackage de.proiectus.fragen --projectName fragen
+jpa setup --provider HIBERNATE --database POSTGRES
+entity jpa --class ~.data.Kategorie --sequenceName KAT_SEQ
+entity jpa --class ~.data.Fragen
+enum type --class ~.data.FragenKategorie
+enum constant --name Religion1502
+enum constant --name Mathe1502
+field string --fieldName frage --class ~.data.Fragen
+field string --fieldName antwort --class ~.data.Fragen
+field reference --fieldName kat --type ~.data.Kategorie
+// [failed] field reference --fieldName katType --type ~.data.FragenKategorie
+field enum --fieldName kattype --type ~.data.FragenKategorie
+finder add findFragenByKategorie
+finder add findFragensByKategorie
+finder add --finderName findFragenByKategorie
+finder add --finderName findFragensByKategorie
+finder list
+finder add --finderName findFragensByKat
+finder add --finderName findFragensByKattype
+finder add --finderName findFragensByKat
+web mvc setup
+web mvc all --package ~.web
+web mvc finder all
+web mvc language --code de
+web mvc jquery setup
+web mvc jquery all
+web mvc datatables setup 
+web mvc bootstrap setup
+jpa gvnix setup
+jpa batch all
+web mvc batch setup
+web mvc batch all
+// [failed] web mvc datatables add --type ~.data.FragenController --inline true --ajax true
+// [failed] web mvc datatables add --type ~.data.Fragen --inline true --ajax true
+// [failed] web mvc datatables add --type ~.data.FragenBatchService --inline true --ajax true
+// [failed] web mvc datatables add --type ~.data.Fragen --mode show
+web mvc datatables add --type ~.web.FragenController --inline true --ajax true
+web mvc datatables add --type ~.web.KategorieController
+// [failed] web mvc datatables detail add --type ~.web.FragenController --property kategories
+// [failed] web mvc datatables detail add --type ~.web.FragenController --property kat
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-03-13 21:58:43
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2015-03-17 21:53:46
+// Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-03-24 20:01:42
