@@ -26,6 +26,9 @@
 		<!-- Push support -->
 		<dependency org="com.vaadin" name="vaadin-push" rev="&vaadin.version;" />
 
+		<!-- Postgres -->
+		<dependency org="org.postgresql" name="postgresql" rev="9.3-1100-jdbc41"  />
+
 		<!-- Servlet 3.0 API -->
 		<dependency org="javax.servlet" name="javax.servlet-api" rev="3.0.1" conf="nodeploy->default" />
 
