@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_de_proiectus_data_Vokabel" modelAttribute="vokabel" path="/vokabels" versionField="Version" z="OyTRasuIEz+rIbztDKdR7OI9+Vc=">
+        <field:input field="seite1" id="c_de_proiectus_data_Vokabel_seite1" z="WfY3HddCn7OjsQzi4FWwFp5OfF4="/>
+        <field:input field="seite2" id="c_de_proiectus_data_Vokabel_seite2" z="ezCJhY/MDK1mkRDT9e6jW4M/hYU="/>
+        <field:select field="katSet" id="c_de_proiectus_data_Vokabel_katSet" itemValue="id" items="${vokabelkategories}" multiple="true" path="/vokabelkategories" z="/uVtSdPP+8bXKEskR7pKSCHSog0="/>
+        <field:select field="katRef" id="c_de_proiectus_data_Vokabel_katRef" itemValue="id" items="${vokabelkategories}" path="/vokabelkategories" z="1oD7wMfTCm7FWxNaWT5WsQ3iOSw="/>
+    </form:update>
+</div>

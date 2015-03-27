@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_de_proiectus_data_Vokabel" items="${vokabels}" z="J/xuOhrAKodZgJzoF0lWYd4zSmY=">
+        <table:table data="${vokabels}" id="l_de_proiectus_data_Vokabel" path="/vokabels" z="5Izc/yPfzT6DQvmHPPDH7St9z8k=">
+            <table:column id="c_de_proiectus_data_Vokabel_seite1" property="seite1" z="4dsDgSOPKNrjwwQa6ekfVgDYmpw="/>
+            <table:column id="c_de_proiectus_data_Vokabel_seite2" property="seite2" z="HHlqiqlJO+cDjOFDxCReJqXPhbA="/>
+            <table:column id="c_de_proiectus_data_Vokabel_katSet" property="katSet" z="K5xZHVBbf2qcG/oD/X7I/7X/eg8="/>
+            <table:column id="c_de_proiectus_data_Vokabel_katRef" property="katRef" z="YfFvjXYGwhPsBkwmzJuyVflThX4="/>
+        </table:table>
+    </page:list>
+</div>

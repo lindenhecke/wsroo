@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_de_proiectus_data_Vokabel" object="${vokabel}" path="/vokabels" z="tCwyzc8Zd/By/TerZvJf9kABJD8=">
+        <field:display field="seite1" id="s_de_proiectus_data_Vokabel_seite1" object="${vokabel}" z="tm1zUU9btQcf/PfjJE3KC3Lm9AM="/>
+        <field:display field="seite2" id="s_de_proiectus_data_Vokabel_seite2" object="${vokabel}" z="79AiRE6TqRIcfTEkAk+TngWV8lA="/>
+        <field:display field="katSet" id="s_de_proiectus_data_Vokabel_katSet" object="${vokabel}" z="eTc+kpIMMJAs0rPZPXDIjlCeRoI="/>
+        <field:display field="katRef" id="s_de_proiectus_data_Vokabel_katRef" object="${vokabel}" z="I6PFtwbqN2xSnJ/HTP1ung5XKyc="/>
+    </page:show>
+</div>
