@@ -26,7 +26,8 @@
 		</chain>
 	</resolvers>
 	<modules>
-		<!-- Vaadin patched SmartSprites -->
+		<!--<module organisation="org.postgres" name=".*" resolver="internal" />
+		--><!-- Vaadin patched SmartSprites -->
 		<module organisation="com.carrotsearch" name="smartsprites"
 			revision="0.2.3-itmill" resolver="custom-smartsprites" />
 	</modules>
