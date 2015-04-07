@@ -3,142 +3,155 @@ project --topLevelPackage de.arbeitskraft --projectName JobListing --java 7 --pa
 // Spring Roo 1.3.1.RC1 [rev 4877cfb] log closed at 2015-02-23 09:09:07
 // Spring Roo 1.3.1.RC1 [rev 4877cfb] log opened at 2015-02-23 09:09:15
 jpa setup --provider HIBERNATE --database HYPERSONIC_PERSISTENT
-entity jpa --class ~.data.Leadership --testAutomatically
+entity jpa --class ~.data.Leadership
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.SkillName --testAutomatically
+entity jpa --class ~.data.SkillName
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.SkillLevel --testAutomatically
+entity jpa --class ~.data.SkillLevel
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Authority --testAutomatically
+entity jpa --class ~.data.Authority
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.WorkingPlan --testAutomatically
+entity jpa --class ~.data.WorkingPlan
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.SocialInsurance --testAutomatically
+entity jpa --class ~.data.SocialInsurance
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Salutation --testAutomatically
+entity jpa --class ~.data.Salutation
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.NAICS --testAutomatically
+entity jpa --class ~.data.NAICS
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.LanguageLevel --testAutomatically
+entity jpa --class ~.data.LanguageLevel
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.TitleCode --testAutomatically
+entity jpa --class ~.data.TitleCode
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Aktion --testAutomatically
+entity jpa --class ~.data.Aktion
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.CountryCode --testAutomatically
+entity jpa --class ~.data.CountryCode
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Status --testAutomatically
+entity jpa --class ~.data.Status
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.LicenceLevel --testAutomatically
+entity jpa --class ~.data.LicenceLevel
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Handicap --testAutomatically
+entity jpa --class ~.data.Handicap
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.HiringOrgSize --testAutomatically
+entity jpa --class ~.data.HiringOrgSize
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.KindOfApplication --testAutomatically
+entity jpa --class ~.data.KindOfApplication
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Motorcycle --testAutomatically
+entity jpa --class ~.data.Motorcycle
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.JobOfferType --testAutomatically
+entity jpa --class ~.data.JobOfferType
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.BASupervision --testAutomatically
+entity jpa --class ~.data.BASupervision
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.TravelRequired --testAutomatically
+entity jpa --class ~.data.TravelRequired
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Degree --testAutomatically
+entity jpa --class ~.data.Degree
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.BudgetResp --testAutomatically
+entity jpa --class ~.data.BudgetResp
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.SpecialEngagement --testAutomatically
+entity jpa --class ~.data.SpecialEngagement
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.DrivingLicenceName --testAutomatically
+entity jpa --class ~.data.DrivingLicenceName
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Truck --testAutomatically
+entity jpa --class ~.data.Truck
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.EduDegree --testAutomatically
+entity jpa --class ~.data.EduDegree
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Housing --testAutomatically
+entity jpa --class ~.data.Housing
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Omnibus --testAutomatically
+entity jpa --class ~.data.Omnibus
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.MiniJob --testAutomatically
+entity jpa --class ~.data.MiniJob
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.DrivingLicenceRequired --testAutomatically
+entity jpa --class ~.data.DrivingLicenceRequired
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.LeadershipType --testAutomatically
+entity jpa --class ~.data.LeadershipType
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.DailyRate --testAutomatically
+entity jpa --class ~.data.DailyRate
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.SupervisionDesired --testAutomatically
+entity jpa --class ~.data.SupervisionDesired
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.TakeOver --testAutomatically
+entity jpa --class ~.data.TakeOver
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.TemporaryOrRegular --testAutomatically
+entity jpa --class ~.data.TemporaryOrRegular
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.LeadershipEx --testAutomatically
+entity jpa --class ~.data.LeadershipEx
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Car --testAutomatically
+entity jpa --class ~.data.Car
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.SupplierIndustrie --testAutomatically
+entity jpa --class ~.data.SupplierIndustrie
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.EducationAuthorisation --testAutomatically
+entity jpa --class ~.data.EducationAuthorisation
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.EmployeeResp --testAutomatically
+entity jpa --class ~.data.EmployeeResp
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.Region --testAutomatically
+entity jpa --class ~.data.Region
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.EmployerPayscaleBound --testAutomatically
+entity jpa --class ~.data.EmployerPayscaleBound
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.LanguageName --testAutomatically
+entity jpa --class ~.data.LanguageName
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.LicenceName --testAutomatically
+entity jpa --class ~.data.LicenceName
 field string --fieldName bezeichnung
 field number --type long --fieldName nummer
-entity jpa --class ~.data.JobPosting --testAutomatically
+entity jpa --class ~.data.TelecommuncationType
+field string --fieldName IntlCode
+field string --fieldName AreaCode
+field string --fieldName TelNumber
+entity jpa --class ~.data.AddressType
+field reference --fieldName CountryCode --type ~.data.CountryCode
+field string --fieldName PostalCode
+field reference --fieldName Region --type ~.data.Region
+field string --fieldName Municipality
+field string --fieldName District
+field string --fieldName AddressLine
+field string --fieldName StreetName
+field string --fieldName PostOfficeBox
+entity jpa --class ~.data.JobPosting
 field string --fieldName HRBAXMLJobPositionPosting
 field string --fieldName Header
 field string --fieldName JobPositionPosting

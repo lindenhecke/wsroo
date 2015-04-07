@@ -1,0 +1,9 @@
+INDEX VERSION 1.127
+C:\wsroo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1983010954.index
+\Vokabeln\src\main\java
+C:\wsroo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3571797921.index
+\Vokabeln\src\main\java
+C:\wsroo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\539138187.index
+\Vokabeln\src\main\java
+C:\wsroo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1442430167.index
+\Vokabeln\src\main\java

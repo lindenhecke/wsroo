@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/jquery/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_de_proiectus_fragen_data_Fragen" object="${fragen}" path="/fragens" z="xjbqu534jVzZwGq7MozStXgFDak=">
+        <field:display field="frage" id="s_de_proiectus_fragen_data_Fragen_frage" object="${fragen}" z="z4Y5tGyniKnPNSsY+2TB9lheTdw="/>
+        <field:display field="antwort" id="s_de_proiectus_fragen_data_Fragen_antwort" object="${fragen}" z="ZuB0JywPqAU0AyJZYyGpZD6pAR4="/>
+        <field:display field="kat" id="s_de_proiectus_fragen_data_Fragen_kat" object="${fragen}" z="pNr/IiXAE2njAmrqJ44ILmP+AV8="/>
+        <field:display field="kattype" id="s_de_proiectus_fragen_data_Fragen_kattype" object="${fragen}" z="DHHm8wV44SSKu89ecoz6G3M2gwU="/>
+    </page:show>
+</div>

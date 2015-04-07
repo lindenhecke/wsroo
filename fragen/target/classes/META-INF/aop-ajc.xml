@@ -1,0 +1,25 @@
+<aspectj>
+<aspects>
+<aspect name="de.proiectus.fragen.data.Fragen_Roo_Configurable"/>
+<aspect name="de.proiectus.fragen.data.Fragen_Roo_Finder"/>
+<aspect name="de.proiectus.fragen.data.FragenBatchService_Roo_GvNIXJpaBatch"/>
+<aspect name="de.proiectus.fragen.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="de.proiectus.fragen.data.KategorieBatchService_Roo_GvNIXJpaBatch"/>
+<aspect name="de.proiectus.fragen.data.Fragen_Roo_JavaBean"/>
+<aspect name="de.proiectus.fragen.data.Kategorie_Roo_Jpa_ActiveRecord"/>
+<aspect name="de.proiectus.fragen.web.FragenController_Roo_Controller_Finder"/>
+<aspect name="de.proiectus.fragen.web.FragenController_Roo_GvNIXWebJpaBatch"/>
+<aspect name="de.proiectus.fragen.web.KategorieController_Roo_GvNIXWebJpaBatch"/>
+<aspect name="de.proiectus.fragen.web.FragenController_Roo_GvNIXDatatables"/>
+<aspect name="de.proiectus.fragen.web.KategorieController_Roo_GvNIXDatatables"/>
+<aspect name="de.proiectus.fragen.data.Fragen_Roo_Jpa_ActiveRecord"/>
+<aspect name="de.proiectus.fragen.data.Fragen_Roo_ToString"/>
+<aspect name="de.proiectus.fragen.data.Kategorie_Roo_Configurable"/>
+<aspect name="de.proiectus.fragen.data.Fragen_Roo_Jpa_Entity"/>
+<aspect name="de.proiectus.fragen.web.KategorieController_Roo_Controller"/>
+<aspect name="de.proiectus.fragen.data.Kategorie_Roo_ToString"/>
+<aspect name="de.proiectus.fragen.data.Kategorie_Roo_Jpa_Entity"/>
+<aspect name="de.proiectus.fragen.web.FragenController_Roo_Controller"/>
+</aspects>
+</aspectj>
+

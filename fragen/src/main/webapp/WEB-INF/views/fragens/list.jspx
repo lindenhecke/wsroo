@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/datatables" xmlns:table="urn:jsptagdir:/WEB-INF/tags/datatables" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_de_proiectus_fragen_data_Fragen" items="${fragens}" z="hvHqD8jgX0/E60qU3TBIIiMpjkg=">
+        <table:table data="${fragens}" id="l_de_proiectus_fragen_data_Fragen" path="/fragens" z="Rr4cBCquAaVbCFNgnSlrIpEQT+8=">
+            <table:column id="c_de_proiectus_fragen_data_Fragen_frage" property="frage" z="HTdz5yoJryZAdibmpiXBTbpAsqU="/>
+            <table:column id="c_de_proiectus_fragen_data_Fragen_antwort" property="antwort" z="G2+w7X9CgvJffNT/GMK6vx3+3jU="/>
+            <table:column id="c_de_proiectus_fragen_data_Fragen_kat" property="kat" z="kwFH0FJ18uJHEifXePFnaLyVWjw="/>
+            <table:column id="c_de_proiectus_fragen_data_Fragen_kattype" property="kattype" z="s7gU9cvSkm5VTUZ092R4ubLcCKQ="/>
+        </table:table>
+    </page:list>
+</div>

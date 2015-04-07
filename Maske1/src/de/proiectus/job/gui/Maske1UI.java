@@ -4,6 +4,7 @@ import java.sql.SQLException;
 
 import javax.servlet.annotation.WebServlet;
 
+import com.apple.eawt.Application;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.VaadinServletConfiguration;
 import com.vaadin.data.util.sqlcontainer.SQLContainer;
