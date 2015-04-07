@@ -1,0 +1,201 @@
+## <xs:element name="HRBAXMLJobPositionPosting">
+#    <xs:element name="Header" type="HeaderType" />
+#    <xs:element name="Data">
+#       <xs:element name="JobPositionPosting" type="JobPositionPostingType"
+#       <xs:element name="DeleteEntry" type="DeleteEntryType"
+#   <xs:element name="JobPositionPostingId">
+#   <xs:element name="HiringOrg">
+#      <xs:element name="HiringOrgName">
+#      <xs:element name="HiringOrgId" minOccurs="0">
+#      <xs:element name="ProfileWebSite" minOccurs="0">
+#      <xs:element name="HiringOrgSize" minOccurs="0">
+#      <xs:element name="Industry" minOccurs="0">
+#         <xs:element name="NAICS" minOccurs="0">
+#      <xs:element name="Contact">
+#         <xs:element name="Salutation" minOccurs="0">
+#         <xs:element name="Title" minOccurs="0">
+#         <xs:element name="GivenName" minOccurs="0">
+#         <xs:element name="NamePrefix" minOccurs="0">
+#         <xs:element name="FamilyName">
+#         <xs:element name="PositionTitle" minOccurs="0">
+#         <xs:element name="PostalAddress" type="AddressType"
+#         <xs:element name="VoiceNumber" type="TelecommuncationType"
+#         <xs:element name="MobilNumber" type="TelecommuncationType"
+#         <xs:element name="FaxNumber" type="TelecommuncationType"
+#         <xs:element name="EMail" minOccurs="0">
+#         <xs:element name="GeneralWebSite" minOccurs="0">
+#   <xs:element name="PostDetail">
+#      <xs:element name="StartDate" type="xs:date" minOccurs="0">
+#      <xs:element name="EndDate" type="xs:date" minOccurs="0">
+#      <xs:element name="LastModificationDate" type="xs:dateTime">
+#      <xs:element name="Status">
+#      <xs:element name="Aktion">
+#      <xs:element name="SupplierId">
+#      <xs:element name="SupplierName">
+#      <xs:element name="SupplierIndustrie" minOccurs="0">
+#      <xs:element name="InternetReference" minOccurs="0">
+#      <xs:element name="PostedBy" minOccurs="0">
+#         <xs:element name="Contact" minOccurs="0">
+#            <xs:element name="Company" minOccurs="0">
+#            <xs:element name="Salutation" minOccurs="0">
+#            <xs:element name="Title" minOccurs="0">
+#            <xs:element name="GivenName" minOccurs="0">
+#            <xs:element name="NamePrefix" minOccurs="0">
+#            <xs:element name="FamilyName" minOccurs="0">
+#            <xs:element name="PositionTitle" minOccurs="0">
+#            <xs:element name="PostalAddress" type="AddressType"
+#            <xs:element name="VoiceNumber" type="TelecommuncationType"
+#            <xs:element name="MobilNumber" type="TelecommuncationType"
+#            <xs:element name="FaxNumber" type="TelecommuncationType"
+#            <xs:element name="EMail" minOccurs="0">
+#            <xs:element name="JobContactWebSite" minOccurs="0">
+#            <xs:element name="InterviewContact" minOccurs="0">
+#               <xs:element name="Salutation" minOccurs="0">
+#               <xs:element name="Title" minOccurs="0">
+#               <xs:element name="GivenName" minOccurs="0">
+#               <xs:element name="NamePrefix" minOccurs="0">
+#               <xs:element name="FamilyName" minOccurs="0">
+#               <xs:element name="PositionTitle" minOccurs="0">
+#               <xs:element name="VoiceNumber" type="TelecommuncationType"
+#               <xs:element name="MobilNumber" type="TelecommuncationType"
+#               <xs:element name="FaxNumber" type="TelecommuncationType"
+#               <xs:element name="EMail" minOccurs="0">
+#            <xs:element name="InterviewLocation" minOccurs="0">
+#               <xs:element name="Location" minOccurs="0">
+#               <xs:element name="CountryCode" minOccurs="0">
+#               <xs:element name="PostalCode" minOccurs="0">
+#               <xs:element name="Region" minOccurs="0">
+#               <xs:element name="Municipality" minOccurs="0">
+#               <xs:element name="District" minOccurs="0">
+#               <xs:element name="AddressLine" minOccurs="0">
+#               <xs:element name="StreetName" minOccurs="0">
+#            <xs:element name="Interview" minOccurs="0">
+#               <xs:element name="InterviewDate" type="xs:date"
+#               <xs:element name="InterviewTime" minOccurs="0">
+#               <xs:element name="RoomNumber" minOccurs="0">
+#               <xs:element name="AdditionalInformation"
+#      <xs:element name="BASupervision" minOccurs="0">
+#      <xs:element name="SupervisionDesired" minOccurs="0">
+#      <xs:element name="BAContact" minOccurs="0">
+#         <xs:element name="Department" minOccurs="0">
+#         <xs:element name="Salutation" minOccurs="0">
+#         <xs:element name="Title" minOccurs="0">
+#         <xs:element name="NamePrefix" minOccurs="0">
+#         <xs:element name="FamilyName" minOccurs="0">
+#         <xs:element name="PostalAddress" minOccurs="0">
+#            <xs:element name="CountryCode">
+#            <xs:element name="PostalCode">
+#            <xs:element name="Region">
+#            <xs:element name="Municipality">
+#            <xs:element name="District" minOccurs="0">
+#            <xs:element name="AddressLine" minOccurs="0">
+#            <xs:element name="StreetName">
+#         <xs:element name="VoiceNumber" type="TelecommuncationType"
+#         <xs:element name="FaxNumber" type="TelecommuncationType"
+#         <xs:element name="EMail">
+#   <xs:element name="JobPositionInformation">
+#      <xs:element name="JobPositionTitle">
+#         <xs:element name="TitleCode">
+#         <xs:element name="Degree" minOccurs="0">
+#      <xs:element name="AlternativeJobPositionTitle"
+#         <xs:element name="TitleCode">
+#         <xs:element name="Degree" minOccurs="0">
+#      <xs:element name="JobPositionTitleDescription"
+#      <xs:element name="JobOfferType">
+#      <xs:element name="SpecialEngagement" minOccurs="0">
+#      <xs:element name="SocialInsurance" minOccurs="0">
+#      <xs:element name="Objective" minOccurs="0" maxOccurs="1">
+#      <xs:element name="EducationAuthorisation">
+#      <xs:element name="JobPositionDescription">
+#         <xs:element name="JobPositionLocation">
+#            <xs:element name="Location" maxOccurs="10">
+#               <xs:element name="CountryCode">
+#               <xs:element name="PostalCode" minOccurs="0">
+#               <xs:element name="Region" minOccurs="0">
+#               <xs:element name="Municipality" minOccurs="0">
+#               <xs:element name="District" minOccurs="0">
+#               <xs:element name="AddressLine" minOccurs="0">
+#               <xs:element name="StreetName" minOccurs="0">
+#         <xs:element name="Application" minOccurs="0">
+#            <xs:element name="KindOfApplication" minOccurs="0"
+#            <xs:element name="ApplicationStartDate" type="xs:date"
+#            <xs:element name="ApplicationEndDate" type="xs:date"
+#            <xs:element name="EnclosuresRequired" minOccurs="0">
+#         <xs:element name="Leadership" minOccurs="0">
+#         <xs:element name="MiniJob" minOccurs="0">
+#         <xs:element name="Classification" minOccurs="0">
+#            <xs:element name="Schedule" minOccurs="0">
+#               <xs:element name="HoursPerWeek" minOccurs="0">
+#               <xs:element name="WorkingPlan" minOccurs="0"
+#               <xs:element name="SummaryText" minOccurs="0">
+#            <xs:element name="Duration" minOccurs="0">
+#               <xs:element name="TermLength" minOccurs="0">
+#               <xs:element name="TermDate" type="xs:date"
+#               <xs:element name="TemporaryOrRegular"
+#               <xs:element name="TakeOver" minOccurs="0">
+#         <xs:element name="CompensationDescription"
+#            <xs:element name="Salary" minOccurs="0">
+#            <xs:element name="DailyRate" minOccurs="0">
+#            <xs:element name="EmployerPayscaleBound" minOccurs="0">
+#            <xs:element name="CollectiveAgreement" minOccurs="0">
+#         <xs:element name="Housing" minOccurs="0">
+#      <xs:element name="JobPositionRequirements" minOccurs="0">
+#         <xs:element name="QualificationsRequired" minOccurs="0">
+#            <xs:element name="EducationQualifs" minOccurs="0">
+#               <xs:element name="EduDegree" minOccurs="0">
+#               <xs:element name="EduDegreeRequired"
+#               <xs:element name="School" minOccurs="0">
+#                  <xs:element name="SubjectGerman" minOccurs="0">
+#                  <xs:element name="SubjectEnglish"
+#                  <xs:element name="SubjectMaths" minOccurs="0">
+#                  <xs:element name="OtherSubjects" minOccurs="0">
+#            <xs:element name="ManagementQualifs" minOccurs="0">
+#               <xs:element name="LeadershipType" minOccurs="0">
+#               <xs:element name="Authority" minOccurs="0">
+#               <xs:element name="LeadershipEx" minOccurs="0">
+#               <xs:element name="BudgetResp" minOccurs="0">
+#               <xs:element name="EmployeeResp" minOccurs="0">
+#            <xs:element name="LanguageQualifs" minOccurs="0">
+#               <xs:element name="Language" maxOccurs="unbounded">
+#                  <xs:element name="LanguageName" type="xs:integer">
+#                  <xs:element name="LanguageLevel">
+#            <xs:element name="ProfessionalTrainingQualifs"
+#               <xs:element name="AdditionalInformation"
+#               <xs:element name="ProfessionalTraining"
+#                  <xs:element name="Title">
+#                     <xs:element name="TitleCode">
+#                     <xs:element name="Degree" minOccurs="0">
+#            <xs:element name="Licences" minOccurs="0">
+#               <xs:element name="Licence" maxOccurs="unbounded">
+#                  <xs:element name="LicenceName" type="xs:integer">
+#                  <xs:element name="LicenceLevel">
+#            <xs:element name="CertificationQualifs"
+#               <xs:element name="Certification" maxOccurs="20">
+#                  <xs:element name="CertificationName">
+#                  <xs:element name="Description" minOccurs="0">
+#            <xs:element name="SkillQualifs" minOccurs="0">
+#               <xs:element name="HardSkill" minOccurs="0"
+#                  <xs:element name="SkillName" type="xs:integer">
+#                  <xs:element name="SkillLevel">
+#               <xs:element name="SoftSkill" minOccurs="0"
+#                  <xs:element name="SkillName">
+#            <xs:element name="Mobility" minOccurs="0">
+#               <xs:element name="DrivingLicence" minOccurs="0"
+#                  <xs:element name="DrivingLicenceName" type="xs:integer">
+#                  <xs:element name="DrivingLicenceRequired">
+#               <xs:element name="Vehicle" minOccurs="0">
+#                  <xs:element name="Car" minOccurs="0">
+#                  <xs:element name="Motorcycle" minOccurs="0">
+#                  <xs:element name="Truck" minOccurs="0">
+#                  <xs:element name="Omnibus" minOccurs="0">
+#         <xs:element name="ProfessionalExperience" minOccurs="0">
+#         <xs:element name="TravelRequired" minOccurs="0">
+#         <xs:element name="Handicap" minOccurs="0">
+#      <xs:element name="NumberToFill">
+#      <xs:element name="AssignmentStartDate" type="xs:date">
+#      <xs:element name="AssignmentEndDate" type="xs:date"
+#   <xs:element name="BAInternalInformation" minOccurs="0">
+#      <xs:element name="InternalInformation" minOccurs="0">
+#      <xs:element name="MaximumPlacementSuggestions"
+#      <xs:element name="PlacementSuggestionsIssued"
+#      <xs:element name="MatchingStrategy" minOccurs="0">

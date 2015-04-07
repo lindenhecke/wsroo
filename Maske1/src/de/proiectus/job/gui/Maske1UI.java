@@ -30,24 +30,6 @@ public class Maske1UI extends UI {
 
 	@Override
 	protected void init(VaadinRequest request) {
-		SQLContainer container = null;
-		try {
-			JDBCConnectionPool pool = new SimpleJDBCConnectionPool(
-					"org.postgresql.Driver",
-					"jdbc:postgresql://localhost:5432/postgres", "postgres",
-					"aabb11", 2, 5);
-			TableQuery tq = new TableQuery("vokabel", pool);
-			container = new SQLContainer(tq);
-
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		Table table = new Table("Table Vokabeln");
-		table.setContainerDataSource(container);
-		table.setEditable(true);
-
-		
 		final VerticalLayout layout = new VerticalLayout();
 		layout.setMargin(true);
 		setContent(layout);
@@ -55,13 +37,14 @@ public class Maske1UI extends UI {
 		Button button = new Button("Click Me!");
 		button.addClickListener(new Button.ClickListener() {
 			public void buttonClick(ClickEvent event) {
-				setContent(new maske2());
-				layout.addComponent(new maske2());
-				layout.addComponent(new Label("Thank you for clicking"));
+				setContent(new Maske2());
+				//layout.addComponent(new Maske2());
+				//layout.addComponent(new Label("Thank you for clicking"));
 			}
 		});
-		layout.addComponent(table);
+
 		layout.addComponent(button);
+		setContent(new Maske2());
 	}
 
 }
